@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.4.1] - 2026-03-18
+
+### Added
+
+- **Skills now discoverable via natural language.** All 12 skills that were missing explicit trigger phrases now have them — say "deploy this" and Claude finds `/ship`, say "check my diff" and it finds `/review`. Following Anthropic's best practice: "the description field is not a summary — it's when to trigger."
+- **On-demand hooks and telemetry captured in TODOS.md.** `/careful` (destructive command guardrails), `/freeze` (edit restriction), `/guard` (meta-skill), and skill usage telemetry — all scoped as P3 with implementation notes from eng review.
+
 ## [0.6.4.0] - 2026-03-17
 
 ### Added
